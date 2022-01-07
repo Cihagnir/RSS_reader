@@ -1,0 +1,45 @@
+Understand the Project :: 
+    What is RSS feed ?  
+	That is real time content update from website news etc.. RSS just upload the information on xml file.
+
+    What is RSS feed reader ?
+	That guy convert the xml data user friendly UI. 
+
+
+
+
+What project want us :: 
+    In here we create the RSS feed reader. 
+	It MUST contain => 
+	    RSS feed url input & Tittle, descriprion and link display
+	I SHOULD contain =>  
+	    More than one RSS feed link & Build own RSS parser libary
+
+
+
+First step > RSS feed research
+Next > Find standart path for web scrabing [XML format comp.]
+
+
+
+
+Xml format rss ::
+
+https://lifehacker.com/rss
+https://rss.art19.com/apology-line
+https://rss.com/blog/popular-rss-feeds/ [Link source ]
+
+Crime Junkie :::: https://feeds.simplecast.com/qm_9xx0g
+The Dan Bongino Show ::: https://feeds.megaphone.fm/WWO3519750118
+Dateline NBC ::: https://podcastfeeds.nbcnews.com/HL4TzgYC
+Time space news ::: https://rss.nytimes.com/services/xml/rss/nyt/Space.xml
+Life Hacker ::: https://lifehacker.com/rss
+
+
+05/01/2022
+
+Geting information from rss with web scraping looking good but not soo sexy.
+On XML format rss we have standation of data. "<item>" is generel <title>,<describtion>,<link> are what we want.
+BUT on other format like "https://techcrunch.com/tag/rss/" we dont have standat table. For that we need to determine the link on xml format or not.
+
+	To next step >> Plan the general map of project. Determine funtion and class structure.

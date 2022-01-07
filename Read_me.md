@@ -1,0 +1,1 @@
+That repositories open for Dev Project RSS feed reader chalange. You can find details of project on Project_Notes.txt files
